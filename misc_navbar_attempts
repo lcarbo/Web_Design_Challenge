@@ -1,0 +1,31 @@
+<li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Visualizations</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="Viz_Comparison.html">Comparison</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="viz1.html">Viz1</a></li>
+      <li><a class="dropdown-item" href="#">Viz2</a></li>
+      <li><a class="dropdown-item" href="#">Viz3</a></li>
+      <li><a class="dropdown-item" href="#">Viz4</a></li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="data_table.html">Data</a>
+  </li>
+
+
+
+
+  <div class="dropdown me-1">
+    <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="10,20">
+      Offset
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </div>

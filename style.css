@@ -1,0 +1,76 @@
+.container{ 
+    padding: 20px;
+    margin: auto; 
+    align-items: center
+}
+.nav{
+    padding: 10px;
+    margin: auto; 
+    background-color: lightsteelblue;
+    text-decoration: underline; 
+    font-weight: 450;
+    font-size: 16px
+}
+
+.nav-link {
+    font:whitesmoke;
+    font-weight: 550;
+    font-size: 16px;
+    padding: 15px
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: darkseagreen; 
+  }
+
+  /* h2 heading tags */
+  h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-align: center;
+    color: steelblue; 
+  }
+
+  h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold
+  }
+
+  /* All img tags */
+  img {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: auto;
+    border-color: darkseagreen;
+    display: block;
+  }
+
+  /* All p tags */
+  p {
+    text-align: left;
+    font-size: 16px;
+    color: black;
+  }
+
+  /* All unordered list tags */
+  ul {
+    text-align: center;
+    font-size: 25px;
+    /* Include bullets in the content flow. */
+    /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+    list-style-position: inside;
+    font-weight: bold;
+    color: darkseagreen;
+    padding: 5px
+  }
+
+  /* <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> */
