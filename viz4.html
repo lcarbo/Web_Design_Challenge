@@ -25,13 +25,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Viz_Comparison.html">Comparison</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true"> Plots <span class="sr-only">(current)</span></a>
                         <div class= "dropdown-menu">
-                            <a class="dropdown-item active" href="viz1.html">Visualization 1<span class="sr-only">(current)</span></a>
+                            <a class="dropdown-item" href="viz1.html">Visualization 1</a>
                             <a class="dropdown-item" href="viz2.html">Visualization 2</a>
                             <a class="dropdown-item" href="viz3.html">Visualization 3</a>
-                            <a class="dropdown-item" href="viz4.html">Visualization 4</a>
+                            <a class="dropdown-item active" href="viz4.html">Visualization 4<span class="sr-only">(current)</span></a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -40,17 +40,16 @@
                 </ul>
             </div>
         </nav>
-        <hr>
-        <div class="row">
+        <div class="row"> 
             <div class="col-lg-9">
                 <div class = "row"> 
-                    <h2> Latitude v. Wind Speed</h2>
+                    <h2> Latitude v. Humidity </h2>
                 </div>
                 <div class= "row">
-                    <img src="visualizations/LatvWind_all.png" alt = "Latitude v. Wind" class="figure-img"></a>
+                    <img src="visualizations/LatvHumidity_all.png" alt = "Latitude v. Humidity"  class="figure-img"></a>
                 </div>
                 <div class = "row"> 
-                    <p>When comparing latitude and wind speed, there was no notable correlation between these two variables.
+                    <p> When comparing latitude and humidity, there was no notable correlation between these two variables. This was contrary to expectations and could be due to the season this data was collected.
                     <br></p>
                 </div>
             </div>
@@ -61,7 +60,7 @@
                     <div class="card-body">
                         <div class="col-md-6">  
                         <div class = "row">
-                                <p> Current: Wind </p>
+                                <p> Wind </p>
                                 <a href= "viz1.html"> <img src="visualizations/LatvWind_all.png" alt = "Latitude v. Wind" class="img-thumbnail"></a>
                                 <hr>
                             </div>
@@ -76,7 +75,7 @@
                                 <hr>
                             </div>
                             <div class = "row">
-                                <p> Humidity </p>
+                                <p> Current: Humidity </p>
                                 <a href= "viz4.html"> <img src="visualizations/LatvHumidity_all.png" alt = "Latitude v. Humidity" class="img-thumbnail"></a>
                                 <hr>
                             </div>
@@ -84,8 +83,6 @@
                     </div>
                     </div>
                 </div>
-                </div>
-            </div>
       </div>
   </body>
 </html>
